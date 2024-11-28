@@ -1,0 +1,91 @@
+body {
+    background-color: var(--cor-de-fundo);
+}
+
+.navbar {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2%;
+    background-color: var(--background);
+}
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.nav {
+    display: flex;
+    gap: 20px;
+}
+
+.nav a,
+.nav li {
+    color: var(--cor-primaria);
+    list-style: none;
+    text-decoration: none;
+    font-family: var(--fonte-pr);
+    font-size: var(--tamanho-navbar);
+}
+
+.logo {
+    display: flex;
+    width: 35%;
+    object-fit: cover;
+}
+
+.video-bg {
+    display: flex;
+    position: relative;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.imagem-1 {
+    display: flex;
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.conteudo {
+    padding: 5%;
+}
+
+.titulo-01 {
+    color: var(--branco);
+    width: 80%;
+    margin: auto;
+    font-family: var(--texto-do-site);
+    font-size: 250%;
+}
+
+.texto-01 {
+    color: var(--branco);
+    width: 80%;
+    margin: auto;
+    font-family: var(--font3);
+    font-size: var(--fonte-pr);;
+}
+
+.texto-02 {
+    color: var(--branco);
+    width: 80%;
+    margin: auto;
+    font-family: var(--font3);
+    font-size: var(--fonte-pr);
+}
+
+.fim {
+    padding: 6%;
+    background-color: rgb(29, 29, 29);
+    color: var(--branco);
+    font-family: var(--font3);
+    font-size: var(--fonte-pr);
+}

@@ -1,0 +1,27 @@
+/* CORES QUE VÃO SER USADAS NO SITE */
+:root {
+    --cor-de-fundo: #0c0c0c;
+    --cor-primaria: #FFFFFF;
+
+}
+
+/* Tamanho das fontes */
+:root {
+    --tamanho-navbar: 120%;
+    --font-t: 250%;
+    --fonte-pr: 150%;
+}
+
+/* CORES */
+:root {
+    --preto: #000;
+    --branco: rgb(255, 255, 255);
+}
+
+/* FONTES */
+:root {
+    --fonte-primaria: "roboto", sans-serif;
+    --fonte-secundaria: Arial, Helvetica, sans-serif;
+    --fonte3: "Parkinsans", sans-serif;
+    --font4: "Geologica", sans-serif;
+}
